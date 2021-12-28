@@ -56,5 +56,18 @@
 			</div>
 		</div>
 	</section>
-	
+	<section>
+		<div class="container">
+			{% filter shortcodes %}
+				[subscribe]
+			{% endfilter %}
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			{% filter shortcodes %}
+				[instagram]
+			{% endfilter %}
+		</div>
+	</section>
 {% endblock %}
