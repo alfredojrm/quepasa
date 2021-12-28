@@ -1,0 +1,377 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gradiweb Base Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-19 21:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: gradiweb_base_theme"
+
+#: functions.php:455
+msgid "Address"
+msgstr ""
+
+#. 1: dashboard link.
+#: functions.php:248
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Description of the theme
+msgid "Base theme for optime wordpress development."
+msgstr ""
+
+#: functions.php:235
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:225
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:230
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:26
+msgid "Compnay name:"
+msgstr ""
+
+#: functions.php:379
+msgid "Contact data"
+msgstr ""
+
+#. Author of the theme
+msgid "Cristian Velasco"
+msgstr ""
+
+#: functions.php:249
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions.php:479
+msgid "Email"
+msgstr ""
+
+#: functions.php:470
+msgid "Example: +57 1 999 5522"
+msgstr ""
+
+#: functions.php:458
+msgid "Example: Cra 1 #1-01, Bogotá"
+msgstr ""
+
+#: functions.php:482
+msgid "Example: info@gradiweb.com"
+msgstr ""
+
+#: functions.php:31
+msgid "Footer"
+msgstr ""
+
+#: functions.php:682
+msgid "Footer language widget"
+msgstr ""
+
+#: functions.php:669
+msgid "Footer social widget"
+msgstr ""
+
+#: functions.php:568
+msgid "Footer Widget #1"
+msgstr ""
+
+#: functions.php:580
+msgid "Footer Widget #2"
+msgstr ""
+
+#: functions.php:592
+msgid "Footer Widget #3"
+msgstr ""
+
+#: functions.php:604
+msgid "Footer Widget #4"
+msgstr ""
+
+#: functions.php:616
+msgid "Footer Widget #5"
+msgstr ""
+
+#: functions.php:387
+msgid "Google reCaptcha data"
+msgstr ""
+
+#. Name of the theme
+#: functions.php:275 functions.php:276 inc/settings.php:13 inc/welcome.php:13
+msgid "Gradiweb Base Theme"
+msgstr ""
+
+#: functions.php:275
+msgid "Gradiweb Theme"
+msgstr ""
+
+#: functions.php:277
+msgid "Gradiweb Theme Settings"
+msgstr ""
+
+#: functions.php:656
+msgid "Header language widget"
+msgstr ""
+
+#: functions.php:643
+msgid "Header social widget"
+msgstr ""
+
+#: inc/welcome.php:15
+msgid ""
+"Hi, well done, the Gradiweb Base Theme was installed successfully and now "
+"you can start developing. Please chec the settings page and utilities to "
+"configure your environment and generate a child theme if you need."
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://gradiweb.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://gradiweb.com"
+msgstr ""
+
+#: functions.php:183
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:182
+msgid "Install Required Plugins"
+msgstr ""
+
+#. %s: plugin name.
+#: functions.php:185
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. 1: plugin name.
+#: functions.php:244
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions.php:467
+msgid "Phone number"
+msgstr ""
+
+#: functions.php:251
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions.php:241
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: functions.php:246
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: functions.php:30
+msgid "Primary"
+msgstr ""
+
+#: functions.php:491
+msgid "reCaptcha API Key"
+msgstr ""
+
+#: functions.php:503
+msgid "reCaptcha secret"
+msgstr ""
+
+#: functions.php:494
+msgid "reCaptcha V3 API Key"
+msgstr ""
+
+#: functions.php:506
+msgid "reCaptcha V3 Secret"
+msgstr ""
+
+#: functions.php:240
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:277
+msgid "Settings"
+msgstr ""
+
+#: functions.php:188
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:779
+#, php-format
+msgid "The challenge was not passed: %s"
+msgstr ""
+
+#: functions.php:201
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:242
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions.php:219
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:213
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:783
+msgid "The reCaptcha data is not set or token is empty."
+msgstr ""
+
+#: functions.php:773
+#, php-format
+msgid "The request has failed: %s"
+msgstr ""
+
+#: functions.php:250
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: functions.php:207
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:195
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:189
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:721
+msgid "Token not received from Front-End"
+msgstr ""
+
+#: header.php:39
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:630
+msgid "Top Widget"
+msgstr ""
+
+#. %s: plugin name.
+#: functions.php:187
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions.php:276 inc/welcome.php:14
+msgid "Welcome"
+msgstr ""
+
+#: functions.php:618
+msgid ""
+"Widgets in this area will be displayed in the fifth column in the footer."
+msgstr ""
+
+#: functions.php:570
+msgid ""
+"Widgets in this area will be displayed in the first column in the footer."
+msgstr ""
+
+#: functions.php:606
+msgid ""
+"Widgets in this area will be displayed in the fourth column in the footer."
+msgstr ""
+
+#: functions.php:582
+msgid ""
+"Widgets in this area will be displayed in the second column in the footer."
+msgstr ""
+
+#: functions.php:594
+msgid ""
+"Widgets in this area will be displayed in the third column in the footer."
+msgstr ""
+
+#: functions.php:632
+msgid "Widgets in this area will be displayed near to header menu."
+msgstr ""
+
+#: functions.php:671 functions.php:684
+msgid "Widgets in this area will be displayed over footer menu."
+msgstr ""
+
+#: functions.php:645 functions.php:658
+msgid "Widgets in this area will be displayed over header menu."
+msgstr ""
+
+#: functions.php:492
+#, php-format
+msgid ""
+"Writte the api key obtained from google, to gat an API key go to <a "
+"href=\"%s\" target=\"_blank\" rel=\"no-follow\">here</a>"
+msgstr ""
+
+#: functions.php:456
+msgid "Writte the company address"
+msgstr ""
+
+#: functions.php:480
+msgid "Writte the company email"
+msgstr ""
+
+#: functions.php:468
+msgid "Writte the company phone number"
+msgstr ""
+
+#: functions.php:504
+msgid "Writte the reCaptcha secret obtained from Google reCaptcha"
+msgstr ""

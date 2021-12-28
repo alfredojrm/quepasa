@@ -1,0 +1,19 @@
+{% extends "layouts/base.twig" %}
+{% block content %}
+	{% set fPosts = auxGetField('sliders', page.ID) %}
+	{% include "sections/hero-carousel.twig" with { featured_posts: fPosts } %}
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				{% set about = auxGetField('about', page.ID) %}
+				<div class="col-lg-6 col-12">
+					<img src="{{Image(about.image).src}}" alt="">
+				</div>
+				<div class="col-lg-6 col-12">
+					{{about.text}}
+					<a href="{{about.link.link}}">{{about.link.title}}</a>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

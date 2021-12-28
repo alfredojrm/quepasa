@@ -1,0 +1,28 @@
+{
+  "name": "kurodasensei/gradi-theme",
+  "description": "Gradi-Theme for WP",
+  "type": "wp-theme",
+  "license": "GNU v2",
+  "authors": [{
+    "name": "Alfredo Romero",
+    "email": "alfredo@gradiweb.com"
+  }],
+  "minimum-stability": "dev",
+  "require": {
+    "timber/timber": "9999999-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gradiweb\\": "classes/"
+    }
+  },
+  "scripts": {
+    "remove-git-submodules": "find . -mindepth 2 -type d -name .git | xargs rm -rf",
+    "post-install-cmd": [
+      "@remove-git-submodules"
+    ],
+    "post-update-cmd": [
+      "@remove-git-submodules"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+[12-Dec-2021 22:37:52 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 54
+[26-Dec-2021 21:40:42 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 53
+[26-Dec-2021 21:40:42 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 53
+[26-Dec-2021 21:40:58 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 59
+[26-Dec-2021 21:40:58 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 59
+[26-Dec-2021 21:42:39 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 21:42:39 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 21:43:32 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 21:43:32 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 21:55:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Gradiweb\Config\Utilities' does not have a method 'getAuxField' in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 51
+[26-Dec-2021 21:59:27 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 21:59:27 UTC] PHP Notice:  Array to string conversion in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[26-Dec-2021 22:00:37 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Post could not be converted to string in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code:56
+Stack trace:
+#0 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(405): __TwigTemplate_27d3da31c2bdbdd8cd53f4d5dd60a5363ba8b4f4dc9a870297bc65b640fc3970->doDisplay()
+#1 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(378): Twig\Template->displayWithErrorHandling()
+#2 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code(54): Twig\Template->display()
+#3 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(182): __TwigTemplate_90553ad8bbec7f68b2f19f0655f5faacb17d7e02da29ddc70758355bea90b01a->block_content()
+#4 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environm in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[27-Dec-2021 00:03:33 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code:56
+Stack trace:
+#0 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(405): __TwigTemplate_27d3da31c2bdbdd8cd53f4d5dd60a5363ba8b4f4dc9a870297bc65b640fc3970->doDisplay()
+#1 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(378): Twig\Template->displayWithErrorHandling()
+#2 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code(54): Twig\Template->display()
+#3 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Template.php(182): __TwigTemplate_90553ad8bbec7f68b2f19f0655f5faacb17d7e02da29ddc70758355bea90b01a->block_content()
+#4 /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environm in /home/kurodasensei/Code/quepasa/wp-content/themes/quepasafrancia/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 56
+[28-Dec-2021 00:58:13 UTC] [ Timber ] Initalized TimberImage without providing first parameter.
