@@ -1,0 +1,67 @@
+{% extends "layouts/base.twig" %}
+{% block content %}
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h1>
+                        {{page.meta('title')}}
+                    </h1>
+                    <div>
+                        <span>
+                            {{page.quote}}
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img src="{{Image(page.image).src}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    {{page.meta('content')}}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+            {% set images = auxGetField('images', page.id) %}
+                <div class="col-lg-6 col-12">
+                    <img src="{{Image(images.one).src}}" alt="">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img src="{{Image(images.two).src}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    {{page.second_content}}
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+		<div class="container">
+			{% filter shortcodes %}
+				[subscribe]
+			{% endfilter %}
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			{% filter shortcodes %}
+				[instagram]
+			{% endfilter %}
+		</div>
+	</section>
+{% endblock %}

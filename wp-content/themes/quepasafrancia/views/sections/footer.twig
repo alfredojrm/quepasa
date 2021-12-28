@@ -1,4 +1,39 @@
 <footer class="footer">
+	<section>
+		<div class="container">
+			<div class="row">
+				{% for item in footer_menu.items %}
+					<div class="col-lg-3">
+						<span>{{item.title}}</span>
+						<ul>
+							{% for subitem in item.children %}
+								<li>
+									<a href="{{subitem.link}}">{{subitem.title}}</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+				{% endfor %}
+					<div class="col-lg-3 col-12">
+						<span>CONTACTO</span>
+						<ul>
+							<li>
+								contact@lop.com
+							</li>
+							<li>
+								856 - 693 - 456
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-12">
+						<span>SIGUEME</span>
+						<ul>
+							
+						</ul>
+					</div>
+			</div>
+		</div>
+	</section>
 	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
 	<script src="{{site.theme.link}}/dist/js/script.js"></script>
 	{{function('wp_footer')}}
