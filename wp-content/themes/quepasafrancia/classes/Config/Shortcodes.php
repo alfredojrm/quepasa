@@ -28,7 +28,7 @@ class Shortcodes
     ));
 
     $context = Timber::context();
-    $context['newestPosts'] = $posts->get_posts();
+    $context['newestPosts'] = Timber::get_posts($posts);
     Timber::render('sections/newest-posts.twig', $context);
   }
 }

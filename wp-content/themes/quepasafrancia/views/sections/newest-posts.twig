@@ -1,0 +1,23 @@
+<div class="splide" id="newestPosts">
+  <div class="splide__track">
+		<ul class="splide__list">
+        {% for item in newestPosts %}            
+            <li class="splide__slide">
+                <div>
+                    <img src="{{item.thumbnail.src}}" alt="">
+                    <span>
+                        {% for cat in item.categories %}
+                            {{cat.name}} /
+                        {% endfor %}
+                    </span>
+                    <h3>
+                        {{item.title}}
+                    </h3>
+                    {{item.content}}
+                    {{item.date}}
+                </div>
+            </li>
+        {% endfor %}
+		</ul>
+  </div>
+</div>

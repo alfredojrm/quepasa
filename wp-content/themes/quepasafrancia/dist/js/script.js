@@ -15,7 +15,7 @@
   \*************************/
 /***/ (() => {
 
-eval("document.onreadystatechange = function () {\n  if (document.readyState == \"interactive\") {\n    // Initialize your application or run some code.\n    new Splide('.splide').mount();\n  }\n};\n\n//# sourceURL=webpack://gradi-theme/./src/js/index.js?");
+eval("document.onreadystatechange = function () {\n  if (document.readyState == \"interactive\") {\n    // Initialize your application or run some code.\n    new Splide('.splide').mount();\n    new Splide('#newestPosts').mount();\n  }\n};\n\n//# sourceURL=webpack://gradi-theme/./src/js/index.js?");
 
 /***/ })
 
