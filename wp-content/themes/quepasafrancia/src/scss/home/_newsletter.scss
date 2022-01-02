@@ -1,0 +1,47 @@
+.content__newsletter {
+  .row > div {
+    span.subscribe {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 207.9%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #E84751;
+      margin-top: 2.813rem;
+      display: block;
+    }
+    h2 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 207.9%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #25377C; 
+    }
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2.25rem;
+      line-height: 3.375rem;
+      color: #25377C;
+    }
+    span {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 0.75rem;
+      line-height: 1.125rem;
+
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      color: #505153;
+
+    }
+  }
+}

@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap');
+
+@import './home/slider';
+@import './home/posts-recientes';
+@import './home/explorar';
+@import './home/number';
+@import './home/newsletter';
+@import './home/instagram';
 
 html {
   padding: 0;
   margin: 0;
   display: block;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 body {
@@ -16,10 +25,10 @@ body {
   font-weight: normal;
 }
 
-.navbar {
-  &-nav {
-  }
-}
+// .navbar {
+//   &-nav {
+//   }
+// }
 .nav {
   &-item {
     &:not(:last-child) {

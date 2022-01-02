@@ -3,20 +3,22 @@
 		<ul class="splide__list">
         {% for item in newestPosts %}            
             <li class="splide__slide">
-                <div>
+                <div class="content__post">
                     <img src="{{item.thumbnail.src}}" alt="">
-                    <span>
-                        {% for cat in item.categories %}
-                            {{cat.name}} /
-                        {% endfor %}
-                    </span>
-                    <h3>
-                        {{item.title}}
-                    </h3>
-                    {{item.content}}
-                    <span>                    
-                        {{item.date}}
-                    </span>
+                    <div class="new-post___description">
+                        <span>
+                            {% for cat in item.categories %}
+                                {{cat.name}} /
+                            {% endfor %}
+                        </span>
+                        <h3>
+                            {{item.title}}
+                        </h3>
+                        {{item.content}}
+                        <span class="date">
+                            {{item.date}}
+                        </span>
+                    </div>
                 </div>
             </li>
         {% endfor %}

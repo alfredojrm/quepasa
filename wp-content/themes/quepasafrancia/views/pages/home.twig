@@ -3,35 +3,29 @@
 	{% set fPosts = auxGetField('sliders', page.ID) %}
 	{% include "sections/hero-carousel.twig" with { featured_posts: fPosts } %}
 	<section class="section">
-		<div class="container">
+		<div class="container container__posts-recientes">
 			<div class="row">
 				{% set about = auxGetField('about', page.ID) %}
-				<div class="col-lg-6 col-12">
+				<div class="col-lg-6 col-12 col__img">
 					<img src="{{Image(about.image).src}}" alt="">
-				</div>
-				<div class="col-lg-6 col-12">
-					{{about.text}}
-					<a href="{{about.link.link}}">{{about.link.title}}</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
 					<h2>Articulos Recientes</h2>
 				</div>
-				<div class="col-12">
-					{% filter shortcodes %}
-						[posts-recientes]
-					{% endfilter %}
+				<div class="col-lg-6 col-12 col__description">
+					<div class="post__description">
+						{{about.text}}
+						<a href="{{about.link.link}}">{{about.link.title}}</a>
+					</div>
 				</div>
+			</div>
+			<div class="col-12 slider__destinos">
+				{% filter shortcodes %}
+					[posts-recientes]
+				{% endfilter %}
 			</div>
 		</div>
 	</section>
 	<section>
-		<div class="container">
+		<div class="container content__explorar">
 			<div class="row">
 				{% set explore = auxGetField('explore', page.id) %}
 				<div class="col-12">
@@ -44,27 +38,27 @@
 		</div>
 	</section>
 	<section>
-		<div class="container">
+		<div class="container conntent__number">
 			<div class="row">
 				{% set metrics = auxGetField('metrics', page.id) %}
 				{% for metric in metrics %}
 					<div class="col-lg-4 col-12 d-flex flex-column">
-						{{metric.number}}
-						{{metric.title}}
+					<p class="number">{{metric.number}}</p>
+					<p class="title">{{metric.title}}</p>
 					</div>
 				{% endfor %}
 			</div>
 		</div>
 	</section>
 	<section>
-		<div class="container">
+		<div class="container content__newsletter">
 			{% filter shortcodes %}
 				[subscribe]
 			{% endfilter %}
 		</div>
 	</section>
 	<section>
-		<div class="container">
+		<div class="container content__instagram">
 			{% filter shortcodes %}
 				[instagram]
 			{% endfilter %}

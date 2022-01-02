@@ -1,0 +1,10 @@
+{% extends "layouts/base.twig" %}
+{% block content %}
+    {% if fields.type == 'destination' %}
+        {% include "pages/destinations.twig" with {data: fields.destinations} %}
+    {% elseif fields.type == 'gastronomy' %}
+        {% include "pages/gastronomy.twig" with {data: fields.gastronomy} %}
+    {% else %}
+        {% include "pages/tips.twig" with {data: fields.tips} %}
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,28 @@
+.conntent__number{
+  max-width: 100%;
+  background: #E84751;
+  padding: 1.25rem 9.375rem;
+  margin: 10rem auto 0;
+    .row .flex-column {
+      align-items: center;
+        p {
+          color: #FFFFFF;
+          font-style: normal;
+          text-align: center;
+          margin: 0;
+        }
+        .number {
+          font-family: Poppins;
+          font-weight: 800;
+          font-size: 6.188rem;
+          line-height: 7.375rem;
+        }
+        .title {
+          font-family: Josefin Sans;
+          font-weight: 700;
+          font-size: 0.788rem;
+          line-height: 207.9%;
+          letter-spacing: 0.375rem;
+        }
+    }
+}

@@ -1,0 +1,162 @@
+.container__posts-recientes{
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+    .col__img,
+    .col__description {
+      width: 50%;
+      padding: 0;
+    }
+    .col__img {
+      img {
+        width: 100%;
+        height: 38.75rem;
+        aspect-ratio: 4 / 3;
+      }
+      h2 {
+        font-family: Josefin Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 0.025em;
+        color: #25377C;
+
+        margin-top: 2.5rem;
+        text-align: center;
+      }
+    }
+    .col__description {
+      height: 80rem;
+      background-color: #25377C;
+      .post__description {
+        background-color: #FFFFFF;
+        padding: 5rem 6.875rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+          h2 {
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 2.25rem;
+            line-height: 2.25rem;
+            letter-spacing: 0.025em;
+            color: #E84751;
+          }
+          p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.5rem;
+            line-height: 150.4%;
+            letter-spacing: 2px;
+            color: #505153;
+          }
+          a{
+            background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 50px;
+
+            font-family: Josefin Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.788rem;
+            line-height: 1.625rem;
+            letter-spacing: 0.375rem;
+            text-transform: uppercase;
+            color: #E84751;
+            text-decoration: none;
+
+            margin-top: 1rem;
+            align-self: flex-end;
+            padding: 0.938rem 1.688rem;
+          }
+      }
+    }
+
+  .slider__destinos {
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 2.188rem;
+      .splide__track {
+        padding: 0.313rem 0;
+          ul li{
+            width: calc(33% - 2rem) !important;
+            margin-left: 1rem;
+            height: auto;
+            &:first-child {
+              margin-left: 0;
+            }
+            img {
+              width: 100%;
+              height: 17.5rem;
+              aspect-ratio: 4 / 3;
+              background: rgba(80, 81, 83, 0.17);
+              border-radius: 15px 15px 0px 0px;
+            }
+            div.content__post {
+              background-color: #FFFFFF;
+              border-radius: 0.938rem;
+              box-shadow: 0 0 2px rgba(65, 64, 64, 0.5);
+              box-sizing: border-box;
+              .new-post___description{
+                padding: 1rem;
+                min-height: 13.438rem;
+                span {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 12px;
+                  line-height: 207.9%;
+                  letter-spacing: 0.3em;
+                  text-transform: uppercase;
+                }
+                h3 {
+                  font-family: Josefin Sans;
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 20px;
+                  line-height: 20px;
+                  letter-spacing: 0.025em;
+                  color: #25377C;
+                  margin-top: 1rem;
+                }
+                p {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 164%;
+                  display: flex;
+                  align-items: center;
+                  color: #505153;
+                }
+                span.data {
+                  font-size: 0.625rem;
+                }
+              }
+            }
+          }
+      }
+      .splide__arrows {
+        .splide__arrow--prev {
+          left: -6rem !important;
+          top: 12rem !important;
+          background-color: #25377C;
+          border: 1px solid #25377C;
+          svg{
+            fill: #FFFFFF;
+          }
+        }
+        .splide__arrow--next{
+          right: -4rem !important;
+          top: 12rem !important;
+          background-color: transparent;
+          border: 1px solid #FFFFFF;
+            svg{
+              fill: #FFFFFF;
+            }
+        }
+      }
+  }
+}
